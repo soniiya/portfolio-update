@@ -1,8 +1,49 @@
-@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Neuton:wght@300&family=Crimson+Text:ital@0;1&family=Lobster&display=swap");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
 :root {
-  --background: #ffffff;
+  --font-cursive: "Lobster", cursive;
+  --font-base: "Crimson Text", serif;
+  --background: #0a1929;
   --foreground: #171717;
+
+  --card: 217 33% 9%;
+  --card-foreground: 213 31% 91%;
+
+  --primary: 210 40% 98%;
+  --primary-foreground: 222.2 47.4% 11.2%;
+
+  --secondary: 217 33% 17%;
+  --secondary-foreground: 213 31% 91%;
+
+  --border: 217.2 32.6% 17.5%;
+  --input: 217 33% 17%;
+  --ring: 217 91% 60%;
+
+  --gradient-primary: linear-gradient(
+    135deg,
+    hsl(217 91% 60%),
+    hsl(270 91% 65%)
+  );
+  --gradient-secondary: linear-gradient(
+    135deg,
+    hsl(217 33% 17%),
+    hsl(217 33% 9%)
+  );
+  --gradient-hover: linear-gradient(
+    135deg,
+    hsl(217 91% 60% / 0.1),
+    hsl(270 91% 65% / 0.1)
+  );
+  --shadow-glow: 0 0 40px hsl(217 91% 60% / 0.3);
+  --shadow-card: 0 10px 30px -10px hsl(217 91% 60% / 0.2);
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
 }
 
 @theme inline {
@@ -23,4 +64,44 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+
+  .gradient-text {
+    @apply text-5xl font-bold bg-gradient-to-r from-[#ff00cc] to-[#3333ff] bg-clip-text text-transparent;
+  }
+
+  .gradient-ring {
+    @apply relative right-[190px] top-[30px];
+  }
+}
+
+@layer utilities {
+  .project-card-hover {
+    @apply transition-all duration-500 hover:shadow-card hover:-translate-y-2;
+  }
+  
+  .project-image-hover {
+    @apply transition-transform duration-700;
+  }
+  
+  .group:hover .project-image-hover {
+    @apply scale-110;
+  }
+  
+  .project-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-0 transition-opacity duration-500;
+  }
+  
+  .group:hover .project-overlay {
+    @apply opacity-100;
+  }
 }
