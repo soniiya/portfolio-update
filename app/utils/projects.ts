@@ -19,9 +19,9 @@ export const projects=[
     {
         id:2,
         image: DEC,
-        title:'DEC',
-        description: "Enhanced visual appeal and interactivity by implementing smooth animations and dynamic sliders using CSS and JavaScript. Seamlessly connected the front-end with a .NET Core backend.",
-        live:'https://dec.wsisites.net/',
+        title:'Happylogue',
+        description: "Happylogue is a service that aims to turn Facebook content into photobooks. Verified the API functionality for creating photobooks. Conducted end-to-end testing of the photobook creation process, ensuring seamless integration from content selection to order placement.",
+        live:'https://app.happylogue.com/login',
     },
 
     {
