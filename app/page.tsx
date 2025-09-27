@@ -87,10 +87,14 @@ export default function Home() {
             About Me
           </h2>
           <p className="mb-2 text-white">
-            I'm Soniya Jaiswal, a passionate software developer with expertise
-            in building web applications using technologies like React, Node.js,
-            and MongoDB. I love creating efficient and scalable solutions to
-            solve real-world problems.
+            Experienced software developer with a
+            understanding of modern frontend ecosystem &
+            strong foundation in TypeScript, React, Next.js,
+            and back-end technologies like Node.js, MySQL,
+            and MongoDB also familiar with AWS cloud
+            services. Demonstrated problem-solving abilities
+            in dynamic startup environments and
+            collaborated with cross-functional teams.
             <br /> <br />
             In my free time, I enjoy exploring new technologies, contributing to
             open-source projects, and enhancing my skills through continuous
