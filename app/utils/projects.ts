@@ -25,7 +25,23 @@ export const projects=[
     },
 
     {
-        id: 3,
+        id: 4,
+        image:Drumkit,
+        title:'RBAC Mini‐CRM/PMS',
+        description:'This is a modern, full-stack web application designed for managing projects, tasks, and leads. The dashboard provides real-time metrics, allowing users to track active projects, daily tasks, and overall organizational performance. The application is built with a focus on a responsive user experience, scalability, and type safety.',
+        github:'https://github.com/soniiya/B2BInDemand-Task.git'
+    },
+
+    {
+        id: 5,
+        image:Drumkit,
+        title:'NextAuth + Prisma',
+        description:'Next.js + Tailwind CSS v4 + NextAuth.js + Prisma combines the performance benefits of Next.js with the utility-first styling of Tailwind CSS, secure authentication via NextAuth.js, and efficient database management using Prisma ORM.',
+        github:'https://github.com/soniiya/Pixel-task.git'
+    },
+
+    {
+        id: 6,
         image: stackImage,
         title:'Stack-overflow clone',
         description:'I made a clone of stack overflow which is a full stack application. I built this application using MERN stack development process. I learnt about React-redux and RestAPIs.',
@@ -33,7 +49,7 @@ export const projects=[
         github:'https://github.com/soniiya/StackOverflow-clone.git'
     },
     {
-        id: 4,
+        id: 7,
         image: socialImage,
         title:'Photo sharing application',
         description:'This is also a full-stack application but I used MySQL instead of MongoDB database in this project. I implemented authentication and image sharing functionality.',
@@ -41,7 +57,7 @@ export const projects=[
         github:'https://github.com/soniiya/photo_sharing_application.git'
     },
     {
-        id: 5,
+        id: 8,
         image: AwsImage,
         title:'AWS project',
         description:'Developed a serverless application using AWS Amplify and AWS Lambda for executing post-confirmation triggers to automate user profile creation.',
@@ -55,7 +71,7 @@ export const projects=[
     //     github:'https://github.com/soniiya/NEXT_full-stack.git'
     // },
     {
-        id: 6,
+        id: 9,
         image:modernImage,
         title:'Modern UI/UX frontend-project',
         description:'This is modern UI/UX based React appliction which is fully responsive. I leant a lot about CSS ans responsive designs for all the devices in this project.',
@@ -63,7 +79,7 @@ export const projects=[
         github:'https://github.com/soniiya/modern-ui-react.git'
     },
     {
-        id: 7,
+        id: 10,
         image:Drumkit,
         title:'Drum-kit',
         description:'This was a my first project while learning Javascript. I learnt basic javaScript functions and objects and how to manipulate DOM tree using javaScript by making interactive application.',
