@@ -25,6 +25,14 @@ export const projects=[
     },
 
     {
+        id: 3,
+        image:Drumkit,
+        title:'E-commerce site',
+        description:'This is a modern e-commerce application built with a Next.js frontend (React, Redux Toolkit) and a robust Node.js/Express backend with MongoDB for persistence. It includes full Role-Based Access Control (RBAC) and JWT authentication.',
+        github:'https://github.com/soniiya/Knovator-task.git'
+    },
+
+    {
         id: 4,
         image:Drumkit,
         title:'RBAC Mini‐CRM/PMS',
@@ -36,7 +44,7 @@ export const projects=[
         id: 5,
         image:Drumkit,
         title:'NextAuth + Prisma',
-        description:'Next.js + Tailwind CSS v4 + NextAuth.js + Prisma combines the performance benefits of Next.js with the utility-first styling of Tailwind CSS, secure authentication via NextAuth.js, and efficient database management using Prisma ORM.',
+        description:'Next.js + Tailwind CSS v4 + NextAuth.js + Prisma template combines the performance benefits of Next.js with the utility-first styling of Tailwind CSS, secure authentication via NextAuth.js, and efficient database management using Prisma ORM.',
         github:'https://github.com/soniiya/Pixel-task.git'
     },
 
